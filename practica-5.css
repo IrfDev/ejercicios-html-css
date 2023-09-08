@@ -1,0 +1,122 @@
+#pagina {
+  position: relative;
+  min-height: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#contenido {
+  padding-bottom: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px rgb(70, 68, 68) solid;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: 0;
+  color: black;
+}
+
+.content {
+  background-image: linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 0, 0, 0.45) 10%
+    ),
+    url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 60px;
+  text-transform: uppercase;
+}
+
+.content svg {
+  width: 4%;
+  display: inline;
+}
+
+.content h1 {
+  display: inline;
+}
+
+.content .renglon {
+  display: flex;
+  align-items: center;
+}
+
+.content .letras .aprende {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.content .primer-renglon {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+}
+
+.content .primer-renglon {
+  margin-left: 100px;
+}
+
+.content .primer-renglon .segundo-bloque .cdmx {
+  display: block;
+}
+
+.content .letras .segundo-bloque .escuelas {
+  display: block;
+  width: 60%;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0.99;
+}
+
+.content .letras .en-las {
+  display: block;
+}
+
+.content small {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.content img {
+  height: 50px;
+  margin-right: 15px;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  bottom: 0;
+  left: 00;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+footer strong {
+  display: block;
+  font-weight: 900;
+  color: gold;
+  font-size: large;
+}
+
+footer span {
+  font-weight: 500;
+}
+
+footer small {
+  display: block;
+}
