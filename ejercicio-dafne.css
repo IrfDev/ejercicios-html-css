@@ -1,0 +1,78 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.primer-contenedor {
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/05/great_dane.jpeg.jpg");
+  height: 100vh;
+  /*
+    Que no se repita el fondo
+  */
+  background-repeat: no-repeat;
+  /*
+    Que la imagen de fondo ocupe todo el espacio
+    https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+  */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pilares,
+.recreacion {
+  background-color: darkslategray;
+  color: white;
+  font-size: 2rem;
+  padding: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.primera-imagen {
+  width: 100%;
+}
+
+.segundo-contenedor {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+}
+
+.segundo-contendor {
+  text-align: center;
+}
+
+.tercer-contenedor {
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/05/great_dane.jpeg.jpg");
+  height: 100vh;
+  /*
+    Que no se repita el fondo
+  */
+  background-repeat: no-repeat;
+  /*
+    Que la imagen de fondo ocupe todo el espacio
+    https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+  */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recreacion {
+  background: transparent;
+}
+
+.cuarto-contenedor {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: darkslategray;
+  color: white;
+}
